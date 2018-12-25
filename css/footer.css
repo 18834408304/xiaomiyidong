@@ -1,0 +1,32 @@
+/* 底部开始 */
+.footer{
+	width: 100%;
+	height: 1.58rem;
+	position: fixed;
+	left:0;
+	bottom: 0;
+}
+.footer .list{
+	width: 25%;
+	height: 100%;
+	background: yellow;
+	float: left;
+	text-align: center;
+}
+.footer .list a{
+	margin-top: 0.25rem;
+	font-size: 0.3rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.footer .list a>img{
+	width: 0.57rem;
+	height: 0.57rem;
+	align-self: center;
+	margin: 0 auto 0.12rem;
+}
+.footer:nth-child(1){
+	color: #ff6700;
+}
+/* 底部结束 */

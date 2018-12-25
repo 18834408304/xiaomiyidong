@@ -1,14 +1,19 @@
 .root{
-	max-width:640px;
-	height:100vh;
+	max-width:640;
 	margin: 0 auto;
 	background: #f5f1f0;
 }
+/* 头部开始 */
 .mi-head{
 	width: 100%;
 	height: 2.12rem;
+	background: #F5F1F0;
 	padding: 0 0.4rem;
 	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999;
 }
 .mi-head .mi-top{
 	width: 100%;
@@ -27,14 +32,240 @@
 	height: 0.95rem;
 	background: #fff;
 	border:0.01rem solid #e5e5e5;
+	border-radius: 0.1rem;
+	box-shadow: 0 0 0.05rem 0.03rem rgba(0,0,0,0.1);
+	display: flex;
+	align-items: center;
+}
+.mi-head .mi-top .mi-search .iconfont{
+	width: 0.6rem;
+	height: 0.6rem;
+	font-size: 0.4rem;
+	line-height: 0.6rem;
+	color: rgba(0,0,0,0.3);
+	text-align: center;
+	margin: 0 0.2rem;
+}
+.mi-head .mi-top .mi-search .mi-text{
+	width: 5rem;
+	height: 100%;
+	font-size: 0.42rem;
+	line-height: 0.95rem;
+	color: rgba(0,0,0,0.3);
 }
 .mi-head .mi-top .mi-person{
-	width: 0.47rem;
-	height: 0.55rem;
-	background: green;
+	width: 0.6rem;
+	height: 0.6rem;
+	display:flex;
+}
+.mi-head .mi-top .mi-person .iconfont{
+	width: 0.4rem;
+	height: 0.4rem;
+	font-size: 0.4rem;
+	line-height: 0.6rem;
+	color: rgba(0,0,0,0.3);	
 }
 .mi-head .mi-bottom{
 	width: 100%;
 	height: 0.89rem;
-	background: green;
+	display: flex;
+	justify-content: space-between;
 }
+.mi-head .mi-bottom .nav{
+	width: 9.14rem;
+	height: 100%;
+	overflow-x: auto;
+}
+.mi-head .mi-bottom .nav::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
+.mi-head .mi-bottom .nav>ul{
+	width: 200%;
+	height: 100%;
+	font-size: 0.38rem;
+	display: flex;
+}
+.mi-head .mi-bottom .nav>ul>li{
+	margin-right: 0.78rem;
+	line-height: 0.89rem;
+	color:#747474;
+}
+.mi-head .mi-bottom .nav>ul>li:first-child{
+	color: rgb(237,91,0);
+	border-bottom: 0.08rem solid #ff6700;
+}
+.mi-head .mi-bottom .jiantou{
+	width: 0.9rem;
+    height: 100%;
+    line-height: 0.89rem;
+	color: #bdbdbd;
+	font-size: 0.3rem;
+	text-align: right;
+}
+
+/* 头部结束 */
+ main{
+	width: 100%;
+	background: #f5f1f0;
+	margin: 0 auto;
+	padding: 2.12rem 0;
+ }
+/* 轮播开始 */
+.lunbo{
+	width: 100%;
+	height: 5.4rem;
+	overflow: hidden;
+	position: relative;
+}
+.lunbo>ul{
+	width: 300%;
+	height: 100%;
+	display:flex;
+}
+.lunbo>ul>li{
+	width: 33.333%;
+	height: 100%;
+}
+.lunbo>ul>li>img{
+	width: 100%;
+	height: 100%;
+}
+.lunbo .yuan{
+	width: 100%;
+	height: 0.25rem;
+	background:red;
+	display: flex;
+	position: absolute;
+	bottom: 0.15rem;
+	left: 0;
+	justify-content: center;
+}
+.lunbo .yuan .pd{
+	width: 0.25rem;
+	height: 0.25rem;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.5);
+	margin: 0 0.28rem;
+}
+.lunbo .yuan .active{
+	background: #fff;
+}
+.lunbo .yuan>div:first-child{
+	margin-left: 0;
+}
+/* 轮播结束 */
+/* 菜单开始 */
+.menu{
+	width: 100%;
+	height: 4.8rem;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 0.25rem;
+}
+.menu>div{
+	width: 2.16rem;
+	height: 2.4rem;
+}
+.menu>div>img{
+	width: 2.16rem;
+	height: 2.4rem;
+}
+/* 菜单结束 */
+/* 广告 */
+.gg{
+	width: 100%;
+    height: 7.65rem;
+	display: flex;
+	justify-content: space-between;	margin-bottom: 0.24rem;
+}
+.gg-le{
+	width: 5.36rem;
+	height: 100%;
+}
+.gg-le>img{
+	width: 100%;
+	height: 100%;
+}
+.gg-ri{
+	width: 5.36rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.gg-ri-shang{
+	width: 100%;
+	height: 3.785rem;
+}
+.gg-ri-shang>img{
+	width: 100%;
+	height: 100%;
+}
+.gg-ri-xia{
+	width: 100%;
+	height: 3.785rem;
+}
+.gg-ri-xia>img{
+	width: 100%;
+	height: 100%;
+}
+/* 广告结束 */
+/* <!-- 图片广告1 --> */
+.tu1{
+	width: 100%;
+	height: 4.2rem;
+	margin-bottom: 0.2rem;
+}
+.tu1>img{
+	width: 100%;
+	height: 100%;
+}
+/* <!-- 图片广告结束1 --> */
+/* <!-- 图片广告2 --> */
+.tupian{
+	width: 100%;
+	height: 6.6rem;
+	margin-bottom: 0.06rem;
+}
+.tupian img{
+	width: 100%;
+	height: 100%;
+}
+/* <!-- 图片广告结束2 --> */
+/* 正式页面开始 */
+
+
+/* 正式页面结束 */
+/* 底部开始 */
+.footer{
+	width: 100%;
+	height: 1.58rem;
+	position: fixed;
+	left:0;
+	bottom: 0;
+}
+.footer .list{
+	width: 25%;
+	height: 100%;
+	background: yellow;
+	float: left;
+	text-align: center;
+}
+.footer .list a{
+	margin-top: 0.25rem;
+	font-size: 0.3rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.footer .list a>img{
+	width: 0.57rem;
+	height: 0.57rem;
+	align-self: center;
+	margin: 0 auto 0.12rem;
+}
+.footer:nth-child(1){
+	color: #ff6700;
+}
+/* 底部结束 */
