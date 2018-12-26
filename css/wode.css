@@ -1,4 +1,322 @@
-.box{
-	max-width: 640px;
-	height: 100vh;
+/* 头部开始 */
+.bao{
+	width: 100%;
+	height: 2.43rem;
+	background: #f37d0f;
 }
+.bao .head{
+	width: 100%;
+	height: 100%;
+	background: url(../img/我的%20头部.png) no-repeat center center/100% 100%;
+	display: flex;
+	align-items: center;
+}
+.bao .head .yuan{
+	width: 1.5rem;
+	height: 1.5rem;
+	background: #ffb400;
+	margin: 0 0.27rem 0 0.47rem;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+}
+.bao .head .yuan img{
+	width: 1.38rem;
+	height: 1.38rem;
+	display: block;
+	margin-left: 0.03rem;
+}
+.bao .head .dl{
+	height: 0.44rem;
+	font-size: 0.36rem;
+	color: #fff;
+}
+/* 头部结束 */
+main{
+	width: 100%;
+	background: #f5f1f0;
+}
+/* 我的订单开始 */
+.b1{
+	width: 100%;
+	height: 4.02rem;
+	background: #fff;
+}
+.b1 .dingdan{
+	width: 100%;
+	height: 1.19rem;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.02rem solid #d4d4d4;
+	box-sizing: border-box;
+}
+.b1 .icon{
+	width: 100%;
+	height: 2.83rem;
+	display: flex;
+}
+.b1 .dingdan .dingdan-left{
+	height: 1.19rem;
+	line-height: 1.19rem;
+	font-size: 0.42rem;
+	margin-left: 0.52rem;
+	color: #2b2b2b;
+}
+.b1 .dingdan .dingdan-right{
+	height: 1.19rem;
+	line-height: 1.19rem;
+	display: flex;
+	align-items: center;
+	color: #2b2b2b;
+}
+.b1 .dingdan .dingdan-right span{
+	font-size: 0.4rem;
+	margin-right: 0.24rem;
+}
+.b1 .dingdan .dingdan-right .iconfont{
+	font-size: 0.5rem;
+	margin-right: 0.43rem;
+}
+.b1 .icon .dfk{
+	width: 33.333%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.b1 .icon .dfk .iconfont{
+	font-size: 0.51rem;
+	color: #979797;
+	align-self: center;
+}
+.b1 .icon .dfk p{
+	color: #202020;
+	font-size: 0.36rem;
+	align-self: center;
+	margin-top: 0.34rem;
+}
+/* 我的订单结束 */
+/* 会员中心开始 */
+.huiyuan{
+	width: 100%;
+	height: 3.23rem;
+	background: #fff;
+	margin:0.27rem 0;
+	box-sizing: border-box;
+}
+.huiyuan .i-member1{
+	width: 100%;
+	height: 50%;
+	background: #fff;
+	border-bottom: 0.01rem solid #d4d4d4;
+	display: flex;
+}
+.huiyuan .i-member2{
+	width: 100%;
+	height: 50%;
+	background: #fff;
+	display:flex;
+}
+.huiyuan .i-member1 .biao{
+	width: 1.68rem;
+	height: 100%;
+}
+.huiyuan .i-member1 .biao .iconfont{
+	color: #fdbe32;
+	font-size:0.64rem;
+	margin-left: 0.42rem;
+}
+.huiyuan .i-member1 .text{
+	width: calc(100% - 1.68rem);
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.huiyuan .i-member1 .text .wenzi{
+	font-size: 0.4rem;
+	color: #252525;
+	align-self: center;
+}
+.huiyuan .i-member1 .text .ic{
+	color: #777777;
+	align-self: center;
+}
+.huiyuan .i-member2 .biao{
+	width: 1.68rem;
+	height: 100%;
+}
+.huiyuan .i-member2 .biao .iconfont{
+	color: #51bce0;
+	font-size:0.64rem;
+	margin-left: 0.42rem;
+}
+.huiyuan .i-member2 .text{
+	width: calc(100% - 1.68rem);
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.huiyuan .i-member2 .text .wenzi{
+	font-size: 0.4rem;
+	color: #252525;
+	align-self: center;
+}
+.huiyuan .i-member2 .text .ic{
+	color: #777777;
+	align-self: center;
+}
+/* 会员中心结束 */
+/* 服务中心开始 */
+.fuwu{
+	width: 100%;
+	height: 3.23rem;
+	background: #fff;
+	margin:0.27rem 0;
+	box-sizing: border-box;
+}
+.fuwu .i-member1{
+	width: 100%;
+	height: 50%;
+	background: #fff;
+	border-bottom: 0.01rem solid #d4d4d4;
+	display: flex;
+}
+.fuwu .i-member2{
+	width: 100%;
+	height: 50%;
+	background: #fff;
+	display:flex;
+}
+.fuwu .i-member1 .biao{
+	width: 1.68rem;
+	height: 100%;
+}
+.fuwu .i-member1 .biao .iconfont{
+	color: #ff695e;
+	font-size:0.64rem;
+	margin-left: 0.42rem;
+}
+.fuwu .i-member1 .text{
+	width: calc(100% - 1.68rem);
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.fuwu .i-member1 .text .wenzi{
+	font-size: 0.4rem;
+	color: #252525;
+	align-self: center;
+}
+.fuwu .i-member1 .text .ic{
+	color: #777777;
+	align-self: center;
+}
+.fuwu .i-member2 .biao{
+	width: 1.68rem;
+	height: 100%;
+}
+.fuwu .i-member2 .biao .iconfont{
+	color: #f49335;
+	font-size:0.64rem;
+	margin-left: 0.42rem;
+}
+.fuwu .i-member2 .text{
+	width: calc(100% - 1.68rem);
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.fuwu .i-member2 .text .wenzi{
+	font-size: 0.4rem;
+	color: #252525;
+	align-self: center;
+}
+.fuwu .i-member2 .text .ic{
+	color: #777777;
+	align-self: center;
+}
+/* 服务中心结束 */
+/* f码开始 */
+.fma{
+	width: 100%;
+	height: 1.4rem;
+	background: #fff;
+	margin:0.27rem 0;
+	box-sizing: border-box;
+}
+.fma .i-member1{
+	width: 100%;
+	height: 1.4rem;
+	background: #fff;
+	border-bottom: 0.01rem solid #d4d4d4;
+	display: flex;
+}
+.fma .i-member1 .biao{
+	width: 1.68rem;
+	height: 1.4rem;
+}
+.fma .i-member1 .biao .iconfont{
+	color: #fdbe32;
+	font-size:0.64rem;
+	margin-left: 0.42rem;
+}
+.fma .i-member1 .text{
+	width: calc(100% - 1.68rem);
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.fma .i-member1 .text .wenzi{
+	font-size: 0.4rem;
+	color: #252525;
+	align-self: center;
+}
+.fma .i-member1 .text .ic{
+	color: #777777;
+	align-self: center;
+}
+
+/* f码结束 */
+
+/* 设置开始 */
+
+.shezhi{
+	width: 100%;
+	height: 1.3rem;
+	background: #fff;
+	display:flex;
+}
+.shezhi .biao{
+	width: 1.68rem;
+	height: 1.4rem;
+}
+.shezhi .biao .iconfont{
+	color: #7d8995;
+	font-size:0.64rem;
+	margin-left: 0.42rem;
+}
+.shezhi .text{
+	width: calc(100% - 1.68rem);
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.shezhi .text .wenzi{
+	font-size: 0.4rem;
+	color: #252525;
+	align-self: center;
+}
+.shezhi .text .ic{
+	color: #777777;
+	align-self: center;
+}
+/* 设置结束 */
+
+/* 底部开始 */
+.footer .list .list1{
+	color: #757575;
+}
+.footer .list .list4{
+	color: #ff6700;
+}
+/* 底部结束 */
