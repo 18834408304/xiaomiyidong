@@ -235,7 +235,57 @@
 /* <!-- 图片广告结束2 --> */
 /* 正式页面开始 */
 
-
+.zsym{
+	width:100%;
+	height:7.77rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.zsym .zs{
+	width: 5.35rem;
+	height: 100%;
+	background: red;
+}
+.zsym .zs .zs-tu{
+	width: 100%;
+	height: 5.43rem;
+}
+.zsym .zs .zs-tu img{
+	width:100%;
+	height: 100%;
+}
+.zsym .zs .zs-text{
+	width: 100%;
+	height: 2.34rem;
+	margin: 0.32rem auto 0.49rem 0.41rem;
+}
+.zsym .zs .zs-text .name{
+	font-size: 0.42rem;
+	color: #424242;
+}
+.zsym .zs .zs-text .brief{
+	font-size: 0.34rem;
+	color: #7f7f7f;
+	margin: 0.10rem 0;
+}
+.zsym .zs .zs-text .price{
+	width: 1.76rem;
+	height: 0.39rem;
+	display: flex;
+}
+.zsym .zs .zs-text .price .iconfont{
+	font-size: 0.26rem;
+	color: #bb736f;
+}
+.zsym .zs .zs-text .price .jiage{
+	font-size: 0.30rem;
+	color: #bb736f;
+}
+.zsym .zs .zs-text .price span{
+	font-size: 0.32rem;
+	color: #bb736f;
+}
 /* 正式页面结束 */
 /* 底部开始 */
 .footer{
