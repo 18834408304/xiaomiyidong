@@ -21,6 +21,7 @@
 	height: 0.76rem;
 	border-radius: 10%;
 	position: relative;
+	padding-bottom:0.3rem;
 }
 .head .text input{
 	width: 100%;
@@ -43,7 +44,7 @@ main{
 	width: 100%;
 	background: #f5f1f0;
 	margin: 0 auto;
-	padding: 1.5rem 0 1.58rem 0;
+	padding: 1.24rem 0 0 0;
  }
 /* 搜索图开始 */
 .sousuo{
@@ -54,8 +55,10 @@ main{
 .sousuo .remen{
 	height: 1.2rem;
 	font-size: 0.40rem;
-	margin-left: 0.48rem;
 	line-height: 1.2rem;
+}
+.sousuo .remen span{
+	margin-left: 0.48rem;
 }
 .sousuo .tupian1{
 	width: 100%;
@@ -74,6 +77,7 @@ main{
 	flex-wrap: wrap;
 	padding-top: 0.26rem;
 	padding-left: 0.48rem;
+	box-sizing: border-box;
 }
 .search-key div{
 	width: 3.21rem;
@@ -136,7 +140,9 @@ main{
 	font-size: 0.36rem;
 	color:#404040;
 	line-height: 0.89rem;
-	padding-left: 0.48rem;
+}
+.fenlei .fenlei-t span{
+	margin-left: 0.48rem;
 }
 .fenlei .fenlei-b{
 	width: 100%;
