@@ -1,0 +1,213 @@
+
+/* 头部开始 */
+.mijia{
+	width: 100%;
+	height: 4rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.mijia .mitu{
+	width: 1.46rem;
+	height: 1.46rem;
+	align-self: center;
+	border-radius: 30%;
+}
+.mijia .mitu img{
+	width: 100%;
+	height: 100%;
+}
+.mijia .text{
+	width: 3.32rem;
+	height: 0.64rem;
+	align-self: center;
+	font-size: 0.54rem;
+	color: #000000;
+	line-height: 0.64rem;
+	margin-top: 0.6rem;
+}
+/* 头部结束 */
+/* 验证开始 */
+.sj{
+	width: 100%;
+	height: 1.68rem;
+	margin-top: 0.4rem;
+	display: flex;
+	color:#aeaeae;
+}
+.sj .left{
+	width:1.68rem;
+	height:1.68rem;
+	margin-left: 0.84rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom:0.02rem solid #d3d3d3;
+}
+.sj .left i{
+	font-size: 0.48rem;
+}
+.sj .left span{
+	font-size: 0.51rem;
+}
+.sj .right{
+	width: 7.35rem;
+	height: 100%;
+	border-bottom:0.02rem solid #d3d3d3;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.sj .right input{
+	width: 100%;
+	height:50%;
+	outline: none;
+	border:none;
+	background: none;
+	box-sizing: border-box;
+}
+.sj .right .ts{
+	width: 100%;
+	height:100% ;
+}
+.sj .right .ts i{
+	font-size: 0.57rem;
+	position: absolute;
+	left: 0.1rem;
+	top: calc((100% - 0.8rem) / 2);
+}
+.yz{
+	width: 100%;
+	height: 1.65rem;
+	display: flex;
+	justify-content: center;
+	color:#aeaeae;
+}
+.yz-b{
+	width: 9.12rem;
+	height: 100%;
+	border-bottom:0.02rem solid #d3d3d3;
+	display: flex;
+}
+.yz-b .left{
+	width: 6.39rem;
+	height: 100%;
+	position: relative;
+}
+.yz-b .left>input{
+	width: 100%;
+	height:50%;
+	outline: none;
+	border:none;
+	background: none;
+	box-sizing: border-box;
+}
+.yz-b .left .ts{
+	width: 100%;
+	height:100%;
+}
+.yz-b .left .ts i{
+	font-size: 0.57rem;
+	position: absolute;
+	left: 0.1rem;
+	top: calc((100% - 0.7rem)/2);
+}
+.yz-b .right{
+	width: 2.67rem;
+	height: 100%;
+}
+.yz-b .right i{
+	font-size: 0.48rem;
+	color: #0f98e1;
+	line-height:1.65rem;
+}
+/* 验证结束 */
+/* 登录开始 */
+.denglu{
+	width: 100%;
+	height:5.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 0.5rem;
+}
+.denglu div{
+	width: 9.1rem;
+	height: 1.3rem;
+	background: #ff6801;
+	align-self: center;
+	border-radius: 3%;
+	line-height: 1.3rem;
+	text-align: center;
+}
+.denglu>div:nth-child(1){
+	color: #fff;
+}
+.denglu>div:nth-child(2){
+	color: #000;
+	background: #fff;
+	margin-top: 0.8rem;
+	border: 0.01rem solid #d5d5d5;
+	box-sizing: border-box;
+}
+/* 登录结束 */
+/* 其他方式开始 */
+.shouji-top{
+	height: 1.54rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.shouji-top>div{
+	height: 100%;
+	align-self: center;
+	color: #cfcfcf;
+	font-size: 0.38rem;
+	line-height: 1.54rem;
+	text-align: center;
+}
+.shouji-top>div.line{
+	width: 3.4rem;
+	height: 0.01rem;
+	background: #b0b0b0;
+}
+.ic-3{
+	width: 100%;
+	height: 1.79rem;
+	display: flex;
+	justify-content: center;
+}
+.ic-3 .ire1{
+	color: red;
+}
+.ic-3 .ire2{
+	color: blue;
+}
+.ic-3 .ire3{
+	color: green;
+}
+.ic-3 .iconfont{
+	width: 0.96rem;
+	height: 0.96rem;
+	margin: 0 0.3rem;
+}
+/* 其他方式结束 */
+/* 字体底部开始 */
+.di{
+	width: 100%;
+	height: 0.96rem;
+	display: flex;
+	justify-content: center;
+	line-height: 0.96rem;
+	margin-top: 0.5rem;
+}
+.di div{
+	color: #b9b9b9;
+	font-size: 0.42rem;
+	margin: 0 0.18rem;
+}
+.di>div:first-child{
+	color: #3b3b3b;
+}
+/* 字体底部结束 */

@@ -312,7 +312,7 @@
 	align-self: center;
 	margin: 0 auto 0.12rem;
 }
-.footer:nth-child(1){
+.footer .list .list1{
 	color: #ff6700;
 }
 /* 底部结束 */
