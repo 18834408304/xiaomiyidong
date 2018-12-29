@@ -276,61 +276,83 @@
 .pinglun .naver>ul>li .tu1{
 	width: 7.95rem;
 	height: 1rem;
-	background: yellow;
 	display: flex;
 	justify-content: space-between;
 }
 .pinglun .naver>ul>li .tu1 .tu3{
 	width: 1rem;
 	height: 1rem;
-	border-radius: 50%;
 	line-height: 1rem;
+	border-radius: 40%;
+	overflow: hidden;
 }
 .pinglun .naver>ul>li .tu1 .tu3 .time{
-	width: 1.63rem;
 	height: 0.86rem;
 	display: flex;
 	flex-direction: column;
 }
-.pinglun .naver>ul>li .tu1 .tu3 .time .t1{
+.pinglun .naver>ul>li .tu1 .time .t1{
 	color: #010101;
 	font-size: 0.44rem;
 }
-.pinglun .naver>ul>li .tu1 .tu3 .time .t2{
+.pinglun .naver>ul>li .tu1  .time .t2{
 	color: #5d5d5d;
 	font-size: 0.42rem;
 }
-.pinglun .naver>ul>li .tu1 .tu3 .shou{
-	width: 1.09rem;
+.pinglun .naver>ul>li .tu1  .shou{
 	height: 0.86rem;
-	
-}
-.pinglun .naver>ul>li .tu1 .tu3 .shou .iconfont{
-	font-size: 0.6rem;
 	color: #7c7c7c;
+	font-size: 0.6rem;
+	line-height: 0.86rem;
 }
-.pinglun .naver>ul>li .tu1 .tu3 img{
+.pinglun .naver>ul>li .tu1  .shou .iconfont{
+	font-size: 0.6rem;
+}
+.pinglun .naver>ul>li .tu1  img{
 	width:100%;
 	height:100%;
 }
 .pinglun .naver>ul>li .posi{
 	width: 7.95rem;
 	height: 1.06rem;
-	background: red;
 	margin: 0.25rem 0;
+	overflow:hidden;
+	text-overflow:ellipsis;	
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;  
+	font-size: 0.4rem;
+	color: #1a1a1a;
 }
 .pinglun .naver>ul>li .tu2{
 	width: 7.95rem;
 	height: 1.85rem;
-	background: yellow;
 	margin: 0.25rem 0;
+}
+.pinglun .naver>ul>li .tu2 .tu4{
+	width: 2.52rem;
+	height: 1.86rem;
+	border-radius: 8%;
+}
+.pinglun .naver>ul>li .tu2 .tu4 img{
+	width: 100%;
+	height: 100%;
 }
 .pinglun .naver>ul>li .guanfan{
 	width: 7.95rem;
-	height: 1.02rem;
-	background: blue;
+	font-size: 0.44rem;
+	overflow:hidden;
+	text-overflow:ellipsis;	
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;  
 }
-
+.pinglun .naver>ul>li .guanfan .shouzi{
+	color: #ce6f36;
+}
+.pinglun .naver>ul>li .guanfan .weizi{
+	color: #7f7f7f;
+}
 /* 评论结束 */
 /* 更多评论开始 */
 .gengduo{
@@ -450,6 +472,18 @@
 	float: left;
 	text-align: center;
 }
+.gouwuche1{
+	width:0.47rem;
+	height: 0.47rem;
+	border-radius: 50%;
+	background: #ee5347;
+	font-size: 0.38rem;
+	line-height: 0.47rem;
+	position: absolute;
+	bottom: 0.95rem;
+	left: 1.5rem;
+	color: #fff;
+}
 .di .list a{
 	margin-top: 0.25rem;
 	font-size: 0.3rem;
@@ -457,6 +491,7 @@
 	justify-content: center;
 	flex-direction: column;
 	color: #757575;
+	position: relative;
 }
 .di .list a>img{
 	width: 0.57rem;
@@ -468,7 +503,10 @@
 	width: 3.58rem;
 	height: 0.96rem;
 	background: #ff6801;
-	border-radius: 10%;
+	border-bottom-left-radius:20%; 
+	border-bottom-right-radius:20%; 
+	border-top-left-radius:20%; 
+	border-top-right-radius:20%; 
 	color: #e9f6f7;
 	font-size: 0.54rem;
 	line-height: 0.96rem;
@@ -497,4 +535,5 @@
 	right:0.76rem;
 	bottom: 2.8rem;
 }
+
 /* 定位结束 */
