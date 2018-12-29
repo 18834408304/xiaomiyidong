@@ -505,10 +505,7 @@
 	width: 3.58rem;
 	height: 0.96rem;
 	background: #ff6801;
-	border-bottom-left-radius:20%; 
-	border-bottom-right-radius:20%; 
-	border-top-left-radius:20%; 
-	border-top-right-radius:20%; 
+	border-radius: 0.45rem;
 	color: #e9f6f7;
 	font-size: 0.54rem;
 	line-height: 0.96rem;
