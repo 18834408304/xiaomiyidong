@@ -277,7 +277,6 @@
 	width: 7.95rem;
 	height: 1rem;
 	display: flex;
-	justify-content: space-between;
 }
 .pinglun .naver>ul>li .tu1 .tu3{
 	width: 1rem;
@@ -294,16 +293,19 @@
 .pinglun .naver>ul>li .tu1 .time .t1{
 	color: #010101;
 	font-size: 0.44rem;
+	margin-left: 0.3rem;
 }
 .pinglun .naver>ul>li .tu1  .time .t2{
 	color: #5d5d5d;
 	font-size: 0.42rem;
+	margin-left: 0.3rem;
 }
 .pinglun .naver>ul>li .tu1  .shou{
 	height: 0.86rem;
 	color: #7c7c7c;
 	font-size: 0.6rem;
 	line-height: 0.86rem;
+	margin-left: 3rem;
 }
 .pinglun .naver>ul>li .tu1  .shou .iconfont{
 	font-size: 0.6rem;
