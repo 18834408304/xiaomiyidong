@@ -33,61 +33,48 @@
 /* 中间开始 */
 .addres{
 	width: 100%;
-	height: 5.87rem;
+	height: 3rem;
 }
 .addres div{
-	width: 100%;
+	width: 10rem;
 	height: 1.4675rem;
-	border-bottom: 0.02rem solid #f2f2f2;
+	border: 0.02rem solid #f2f2f2;
 	box-sizing: border-box;
 	padding: 0 0.41rem;
 	line-height: 1.4675rem;
 	display: flex;
+	margin-top: 0.3rem;
+	margin-left: 0.45rem;
 }
 .addres .b1 span:nth-child(1){
 	display: block;
 	font-size:0.42rem;
-	color: #3b3b3b;
+	color: #ff6700;
 }
 .addres .b1 span:nth-child(2){
 	font-size:0.42rem;
-	color: #979797;
+	color: #3c3c3c;
 	display: block;
 	margin-left: 0.67rem;
 }
-.addres .b2 span:nth-child(1){
+.addres .b1 span:nth-child(3){
+	font-size:0.42rem;
+	color: #b0b0b0;
+	display: block;
+	margin-left: 3.5rem;
+}
+.addres .b2 span{
 	display: block;
 	font-size:0.42rem;
 	color: #3b3b3b;
 }
-.addres .b2 span:nth-child(2){
-	font-size:0.42rem;
+.addres .b2 .iconfont{
+	font-size:0.6rem;
 	color: #979797;
 	display: block;
-	margin-left: 0.67rem;
+	margin-left:4.5rem;
 }
-.addres .b3 span:nth-child(1){
-	display: block;
-	font-size:0.42rem;
-	color: #3b3b3b;
-}
-.addres .b3 span:nth-child(2){
-	font-size:0.42rem;
-	color: #979797;
-	display: block;
-	margin-left: 0.67rem;
-}
-.addres .b4 span{
-	display: block;
-	font-size:0.42rem;
-	color: #3b3b3b;
-}
-.addres .b4 input{
-	color: #979797;
-	display: block;
-	margin-left: 6.08rem;
-	margin-top: 0.54rem;
-}
+
 /* 中间结束 */
 /* 底部开始 */
 .dibu{
