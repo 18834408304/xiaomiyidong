@@ -38,8 +38,8 @@
 	justify-content: center;
 }
 .wenzi div{
-	width: 33.333%;
-	height: 100%;
+	width: 3.36rem;
+	height: 1.04rem;
 	font-size: 0.4rem;
 	line-height: 1.04rem;
 	text-align: center;
@@ -48,9 +48,6 @@
 	margin: 0 0.5rem;
 }
 .wenzi .active{
-	width: 1.54rem;
-	height: 100%;
-	color: #d07a41;
 	border-bottom:0.01rem solid #eb6a16;
 	box-sizing: border-box;
 }
