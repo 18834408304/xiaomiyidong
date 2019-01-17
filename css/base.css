@@ -18,6 +18,7 @@ ul,li{
 
 a{
 	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;                //去掉a标签的高亮
 }
 @font-face {
   font-family: 'iconfont';  /* project id 974144 */
